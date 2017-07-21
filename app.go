@@ -1,4 +1,4 @@
-package webhook
+package inaokins
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"google.golang.org/appengine/urlfetch"
 
 	"github.com/google/go-github/github"
-	"github.com/lestrrat/go-inaokins/webhook/internal/httputil"
+	"github.com/lestrrat/go-inaokins/internal/httputil"
 	"github.com/lestrrat/go-slack"
 	"github.com/lestrrat/go-slack/objects"
 	"github.com/pkg/errors"
