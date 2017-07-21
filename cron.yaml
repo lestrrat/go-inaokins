@@ -1,0 +1,5 @@
+cron:
+- description:
+  url: /webhook/remind
+  schedule: every monday 07:00,every monday 13:00,every monday 19:00,every tuesday 07:00,every tuesday 13:00,every tuesday 19:00,every wednesday 07:00,every wednesday 13:00,every wednesday 19:00,every thursday 07:00,every thursday 13:00,every thursday 19:00,every friday 07:00,every friday 13:00,every friday 19:00
+  target: inaokins

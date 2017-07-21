@@ -1,0 +1,15 @@
+service: inaokins
+runtime: go
+api_version: go1.8
+
+env_variables:
+  GITHUB_SECRET: XXX FILL ME XXX
+  SLACK_TOKEN: XXX FILL ME XXX
+
+handlers:
+- url: /.*
+  script: _go_app
+
+- url: /webhook/remind
+  script: _go_app
+  login: admin
